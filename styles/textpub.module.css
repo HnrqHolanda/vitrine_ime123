@@ -1,0 +1,21 @@
+.container{
+    width: 65%;
+}
+
+.container h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #0f0049;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container p{
+    color: #908c8c;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    text-indent: 65px;
+}

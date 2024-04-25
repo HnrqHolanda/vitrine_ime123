@@ -1,0 +1,40 @@
+.header{
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 3;
+}
+
+.links {
+    font-family: 'roboto', sans-serif;
+    margin-right: 7vw;
+
+}   
+
+.LinkEstilizado{
+    margin-right: 1vw;
+    margin-left: 1vw;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(16, 16, 78);
+}
+
+.logoimg{
+    margin-left: 3rem;
+    margin-top: 2px;
+    height: 65px;
+    width: 50px;    
+}
+
+.logo{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5vw;
+    padding: 0;
+}

@@ -1,0 +1,121 @@
+.home{
+    background-color: #ffffff;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.Slider{
+    background-color: #49A9F8;
+    height: 870px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Text1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.Text1 h3{
+    font-family: "Roboto", italic;
+    margin-top: 30px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 26px;
+    
+}
+
+.Text1 h1{
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+
+.Carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Content{
+    margin-top: 30px;
+    background-color: white;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100vw;
+}
+
+.Text2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.Text2 h1{
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: #0f0049;
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+}
+
+.Text2 h3{
+    color: #908c8c;
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    text-indent: 65px;
+}
+
+.board{
+    display: flex;
+    width: 90%;
+    height: 50vw;
+    justify-content: space-around;
+}
+
+.pic{
+    width: 21vw;
+    height: 25vw;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px #0000006d;
+}
+
+.boardpic1 {
+    margin-top: 20px;
+}
+
+.boardpic2 {
+    margin-top: 70px;
+    
+}
+
+.boardpic3 {
+    margin-top: 0px;
+    
+}
+
+.boardpic4 {
+    margin-top: 40px;
+}
+
+.Carousel{
+    margin-top: 30px;
+}
+
+
+
