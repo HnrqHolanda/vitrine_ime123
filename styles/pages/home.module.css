@@ -9,7 +9,7 @@
 
 .Slider{
     background-color: #49A9F8;
-    height: 870px;
+    height: 790px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -48,13 +48,15 @@
 }
 
 .Content{
-    margin-top: 30px;
-    background-color: white;
-    height: 760px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 620px;
     display: flex;
     flex-direction: column;
     align-items: center; 
     width: 100vw;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .Text2{
@@ -83,16 +85,19 @@
 
 .board{
     display: flex;
-    width: 90%;
-    height: 50vw;
-    justify-content: space-around;
+    width: 85%;
+    height: 30vw;
+    justify-content: flex-start;
+    margin-left: 14vw;
+    
 }
 
 .pic{
-    width: 21vw;
-    height: 25vw;
+    width: 16.7vw;
+    height: 22vw;
     border-radius: 20px;
     box-shadow: 0 2px 5px #0000006d;
+    margin-right: 20px;
 }
 
 .boardpic1 {

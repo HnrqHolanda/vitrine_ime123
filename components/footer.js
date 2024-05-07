@@ -1,4 +1,4 @@
-import styles from "../styles/footer.module.css"
+import styles from "../styles/components/footer.module.css"
 import Link from 'next/link'
 import MyImage from "../public/Logo.png"
 import Image from 'next/image';

@@ -1,4 +1,4 @@
-import styles from "../styles/header.module.css"
+import styles from "../styles/components/header.module.css"
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -14,10 +14,10 @@ const HeaderC = () => {
             </div>
             <div className={styles.links}>
                 
-                <Link href="" className={styles.LinkEstilizado}>Home</Link>
-                <Link href="" className={styles.LinkEstilizado}>Atividades Militares</Link>
-                <Link href="" className={styles.LinkEstilizado}>Atividades Acadêmicas</Link>
-                <Link href="" className={styles.LinkEstilizado}>Iniciativas</Link>
+                <Link href="http://localhost:3000/home/home" className={styles.LinkEstilizado}>Home</Link>
+                <Link href="http://localhost:3000/feeds/feed1" className={styles.LinkEstilizado}>Atividades Militares</Link>
+                <Link href="http://localhost:3000/feeds/feed2" className={styles.LinkEstilizado}>Atividades Acadêmicas</Link>
+                <Link href="http://localhost:3000/feeds/feed3" className={styles.LinkEstilizado}>Iniciativas</Link>
                 <Link href="" className={styles.LinkEstilizado}>Eventos</Link>
 
             </div>

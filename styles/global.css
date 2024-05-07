@@ -1,6 +1,6 @@
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
-@import '../styles/slider.module.css';
+@import "../styles/components/slider.module.css";
 
 body {
     

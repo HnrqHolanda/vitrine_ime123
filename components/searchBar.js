@@ -1,4 +1,4 @@
-import styles from "../styles/searchbar.module.css"
+import styles from "../styles/components/searchbar.module.css"
 import { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
 

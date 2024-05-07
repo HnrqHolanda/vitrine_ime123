@@ -1,4 +1,4 @@
-import styles from '../../styles/textpub.module.css'
+import styles from '../../../styles/components/textpub.module.css'
 
 export default function Textpub1(){
 

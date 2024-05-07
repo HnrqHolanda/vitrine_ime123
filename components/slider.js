@@ -4,7 +4,7 @@ import slide1 from '../public/Img2.JPG'
 import slide2 from '../public/Img2.JPG'
 import slide3 from '../public/Img2.JPG'
 import slide4 from '../public/Img2.JPG'
-import styles from "../styles/slider.module.css"
+import styles from "../styles/components/slider.module.css"
 
 const array = [slide1, slide2, slide3, slide4]
 
