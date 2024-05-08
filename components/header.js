@@ -6,6 +6,9 @@ import SearchBar from '../components/searchBar'
 import MyImage from "../public/Logo.png"
 
 const HeaderC = () => {
+
+
+
     return (
 
         <div className={styles.header}>

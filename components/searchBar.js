@@ -1,17 +1,22 @@
 import styles from "../styles/components/searchbar.module.css"
 import { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
+import { useRouter } from 'next/router';
 
-const SearchBar = ({ onSearch }) => {
+
+const SearchBar = () => {
   const [query, setQuery] = useState('');
+  const router = useRouter();
 
   const handleChange = (event) => {
     setQuery(event.target.value);
+    console.log(query)
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    onSearch(query);
+    router.push('http://localhost:3000/result/results?query=${encodeURIComponent(query)}')
+    setQuery('')
   };
 
   return (
