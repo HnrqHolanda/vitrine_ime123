@@ -24,10 +24,11 @@
     font-weight: 700;
     font-size: 30px;
     font-family: "Roboto", sans-serif;
+    animation: brilho 2s linear infinite;
 }
 
 .Text1 h3{
-    font-family: "Roboto", italic;
+    font-family: "Roboto";
     margin-top: 30px;
     font-style: italic;
     font-weight: 300;
@@ -50,7 +51,7 @@
 .Content{
     margin-top: 50px;
     background-color: rgb(255, 255, 255);
-    height: 620px;
+    height: 930px;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -84,14 +85,15 @@
 }
 
 .board{
-    display: flex;
-    width: 85%;
-    height: 30vw;
-    justify-content: flex-start;
-    margin-left: 14vw;
-    
+    margin-left: 0px;
+    padding-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center; /* Centraliza o grid horizontalmente */
+    width: 80%;
+    height: auto;
 }
-
 .pic{
     width: 16.7vw;
     height: 22vw;
@@ -100,27 +102,46 @@
     margin-right: 20px;
 }
 
-.boardpic1 {
-    margin-top: 20px;
-}
-
-.boardpic2 {
-    margin-top: 70px;
-    
-}
-
-.boardpic3 {
-    margin-top: 0px;
-    
-}
-
-.boardpic4 {
-    margin-top: 40px;
-}
 
 .Carousel{
     margin-top: 30px;
 }
+
+.Ap{
+    width: 280px;
+    height: 280px;
+    border: 4px solid #49A9F8;
+    transition: filter 0.3s;
+    
+}
+
+@keyframes brilho {
+    0% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.7); }
+    50% { text-shadow: 0 0 20px rgba(255, 255, 255, 0.7); }
+    100% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.7); }
+}
+
+.card{
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1); /* Aumenta em 10% */
+}
+
+.text{
+    font-family: "Roboto";
+    margin-top: -9px;
+    padding-top: 0;
+    font-style: italic;
+    font-family: "roboto";
+    background-color: #49A9F8;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    z-index: 4;
+}
+
 
 
 

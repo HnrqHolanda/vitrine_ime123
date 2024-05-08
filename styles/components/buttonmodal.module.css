@@ -1,0 +1,19 @@
+.buttoncustom {
+    padding: 10px 20px;
+    background-color: #fb3333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #fb3333;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 40px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 35px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    width: 10rem;
+}

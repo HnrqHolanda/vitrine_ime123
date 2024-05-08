@@ -1,0 +1,123 @@
+.Container{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.main{
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #49A9F8;
+}
+
+.Content{
+    display: flex;
+    width: 85%;
+    
+}
+
+@keyframes brilho {
+            0% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.7); }
+            50% { text-shadow: 0 0 20px rgba(255, 255, 255, 0.7); }
+            100% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.7); }
+}
+
+
+
+.Text h1{
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    animation: brilho 2s linear infinite;
+    margin-bottom: 10px;
+}
+
+.Text h3{
+    text-align: start;
+    width: 100%;
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+}
+
+.Board{
+    display: inline;
+    margin-left: 100px;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.invite{
+    margin-top: 60px;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    
+}
+
+.invText{
+    color: #0f0049;
+    font-family: "roboto", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 35px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+    width: 30%;
+    animation: brilho 2s linear infinite;
+    text-align: center;
+}
+
+
+.opaco{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo opaca */
+    z-index: 999;
+    backdrop-filter: blur(5px); /* Efeito de desfoque */
+}
+
