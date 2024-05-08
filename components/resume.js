@@ -1,7 +1,7 @@
 import styles from "../styles/components/resume.module.css"
 import Image from "next/image";
 
-const ResumeC = ({mimage, TitleC, SumC}) => {
+const ResumeC = ({mimage, Title, Sum}) => {
     return (
 
         <div className={styles.Container}>
@@ -9,8 +9,8 @@ const ResumeC = ({mimage, TitleC, SumC}) => {
             <div className={styles.Content}>
                 <Image src={mimage}></Image>
                 <div className={styles.Text}>
-                    <TitleC />
-                    <SumC />
+                    <h1>{Title}</h1>
+                    <h3>{Sum}</h3>
                 </div>
             </div>
 

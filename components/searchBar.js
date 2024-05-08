@@ -15,7 +15,7 @@ const SearchBar = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    router.push('http://localhost:3000/result/results?query=${encodeURIComponent(query)}')
+    router.push(`http://localhost:3000/result/results?query=${encodeURIComponent(query)}`)
     setQuery('')
   };
 
