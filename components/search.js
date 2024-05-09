@@ -12,18 +12,12 @@ const MeuComponente = ({ componente }) => {
 const SearchC = (minhaString) => {
 
 
-  const filterComponents = (searchString, dataArray) => {
-    return dataArray.filter(item => {
-        if (typeof item.titulo === 'string' && typeof searchString === 'string') {
-            return item.titulo.toLowerCase().includes(searchString.toLowerCase());
-        }
-        return false;
-    }).map(item => item.componente);
+  function filtrarComponentes(array, termoDeBusca) {
+    return array.filter(item => item.titulo.toLowerCase().includes(termoDeBusca.toLowerCase()));
+} 
 
-    
-};
 
-    const filtered_array = filterComponents(minhaString.minhaString, resume_array)
+    const filtered_array = filtrarComponentes(resume_array, minhaString.minhaString)
 
     return(
 

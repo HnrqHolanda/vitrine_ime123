@@ -5,6 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import SearchC from "../../components/search";
 
 export default function resultPage(){
+    
     const searchParams = useSearchParams();
     const query = searchParams.get('query');
 
