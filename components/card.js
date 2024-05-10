@@ -5,7 +5,7 @@ const CardC = ({mimage, title}) => {
 
         <div className={styles.Container}>
             <div className={styles.Content}>
-                
+                aspas aspas aspas
             </div>
         </div>
 

@@ -1,20 +1,20 @@
 import ResumeC from "../../../components/resume";
-import main_image1 from "../../../public/Img10.jpeg"
-import main_image2 from "../../../public/Img10.jpeg"
-import main_image3 from "../../../public/Img10.jpeg"
+import main_image1 from "../../../public/imersão2.jpg"
+import main_image2 from "../../../public/grifotuc1.jpg"
+import main_image3 from "../../../public/papirozero1.jpg"
 
 const resume_array = [
     {
-      titulo: 'Título 1',
-      componente: <ResumeC mimage={main_image1} Title='Título 1' Sum='Lorem Ipsum Dolor Sit Amet'/>
+      titulo: 'Imersão 2023.1',
+      componente: <ResumeC mimage={main_image1} Title='Imersão 2023.1' Sum='A IME Junior, empresa junior do Instituto Militar de Engenharia, realizou um evento...' link="http://localhost:3000/pubs/pub1"/>
     },
     {
-      titulo: 'Título 2',
-      componente: <ResumeC mimage={main_image2} Title='Título 2' Sum='Lorem Ipsum Dolor Sit Amet' />
+      titulo: 'Tuc 09/04',
+      componente: <ResumeC mimage={main_image2} Title='Tuc 09/04' Sum='Grifo participa da Taça Universitária Caríoca, campeonato realizado entre... ' link="http://localhost:3000/pubs/pub2" />
     },
     {
-      titulo: 'Título 3',
-      componente: <ResumeC mimage={main_image3} Title='Título 3' Sum='Lorem Ipsum Dolor Sit Amet' />
+      titulo: 'Papiro Zero',
+      componente: <ResumeC mimage={main_image3} Title='Papiro Zero' Sum='Foi realizado no dia 26/03 a confraternização anual que recepciona...' link="http://localhost:3000/pubs/pub3" />
     }
   ];
 

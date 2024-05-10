@@ -1,8 +1,12 @@
+import FeedC from "../../components/feed"
+import resume_array from "../../data/results/resume_array/resume_array"
+
 export default function Feed1page(){
 
     return(
+
         <div>
-            <h1>hausdhasuhsd</h1>
+            <FeedC string = "Engenharia Química" dataArray={resume_array}/>
         </div>
     )
 

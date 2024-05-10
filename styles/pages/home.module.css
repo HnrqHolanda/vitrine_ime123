@@ -51,7 +51,7 @@
 .Content{
     margin-top: 50px;
     background-color: rgb(255, 255, 255);
-    height: 930px;
+    height: 1400px;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -88,8 +88,8 @@
     margin-left: 0px;
     padding-top: 24px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
     justify-items: center; /* Centraliza o grid horizontalmente */
     width: 80%;
     height: auto;
@@ -110,8 +110,10 @@
 .Ap{
     width: 280px;
     height: 280px;
-    border: 4px solid #49A9F8;
+    border: 4px solid #ffffff;
     transition: filter 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    
     
 }
 
@@ -123,17 +125,20 @@
 
 .card{
     transition: transform 0.3s ease;
-    box-shadow: 0 2px 5px #0000006d;
+    background-color: #ffffff;
 }
 
 .card:hover {
     transform: scale(1.1); /* Aumenta em 10% */
 }
 
-.text{
+.button {
     font-family: "Roboto";
-    margin-top: -9px;
-    padding-top: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-style: italic;
     font-family: "roboto";
     background-color: #49A9F8;
@@ -141,7 +146,13 @@
     color: white;
     font-weight: 700;
     z-index: 4;
+    font-size: medium;
 }
+.btnicon{
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
 
 
 

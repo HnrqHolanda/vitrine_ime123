@@ -16,9 +16,6 @@ export default function resultPage(){
         <div className={styles.Container}>
             <HeaderC/>
             <div className={styles.main}>
-                    <h1>Hello World!</h1>
-                    <h3>hdsuahdsauhdsu</h3>
-                    <p>Query: {query}</p>
                     <SearchC minhaString={query}/> 
             </div>
             <FooterC/>

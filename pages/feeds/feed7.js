@@ -1,4 +1,4 @@
-export default function Feed3page(){
+export default function Feed7page(){
 
     return(
         <div>

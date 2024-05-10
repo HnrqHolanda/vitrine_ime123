@@ -1,5 +1,21 @@
-import slide1 from '../../../public/Img2.jpg'
-import slide2 from '../../../public/Img3.jpg'
-import slide3 from '../../../public/IMG_3752.jpg'
+import slide1 from '../../../public/Imersão2.jpg'
+import slide2 from '../../../public/grifotuc1.jpg'
+import slide3 from '../../../public/papirozero1.jpg'
 
-export const bannerImages = [slide1, slide2, slide3]
+export const bannerImages =  [
+    {
+      image: slide1,
+      caption: "Legenda 1",
+      url: "http://localhost:3000/pubs/pub1"
+    },
+    {
+      image: slide2,
+      caption: "Legenda 2",
+      url: "http://localhost:3000/pubs/pub2"
+    },
+    {
+      image: slide3,
+      caption: "Legenda 3",
+      url: "http://localhost:3000/pubs/pub3"
+    }
+  ];

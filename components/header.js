@@ -18,8 +18,8 @@ const HeaderC = () => {
             <div className={styles.links}>
                 
                 <Link href="http://localhost:3000/home/home" className={styles.LinkEstilizado}>Home</Link>
-                <Link href="http://localhost:3000/feeds/feed1" className={styles.LinkEstilizado}>Novidades e Destaques</Link>
-                <Link href="http://localhost:3000/feeds/feed2" className={styles.LinkEstilizado}>Atividades Acadêmicas</Link>   
+                <Link href="" className={styles.LinkEstilizado}>O Instituto</Link>
+                <Link href="" className={styles.LinkEstilizado}>Novidades e Destaques</Link>
                 <Link href="http://localhost:3000/parcerias/parcerias" className={styles.LinkEstilizado}>Seja um Parceiro do IME</Link>
 
             </div>

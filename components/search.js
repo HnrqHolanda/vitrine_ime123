@@ -22,9 +22,10 @@ const SearchC = (minhaString) => {
     return(
 
       
-      <div>
-        <h1>Resultados da pesquisa:</h1>
-        <p>{minhaString.minhaString}</p>
+      <div className={styles.Content}>
+        <div className={styles.Title}>
+          <h1>Resultados da pesquisa:</h1>
+        </div>
         {filtered_array.map((objeto, index) => (
         <div key={index}>
           <MeuComponente componente={objeto.componente} />
