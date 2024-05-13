@@ -2,6 +2,7 @@ import styles from "../styles/components/feed.module.css"
 import HeaderC from "../components/header";
 import FooterC from "../components/footer"
 import CardC from "./card";
+import imagem1 from "../public/imersão1.jpg"
 
 const MeuComponente = ({ componente }) => {
     return (
@@ -25,14 +26,13 @@ const FeedC = ({string, dataArray}) => {
                 </h3>
             </div>
             <div className={styles.Content}>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+                <div className={styles.grid}>
                 {dataArray.map((objeto, index) => (
                     <div key={index}>
                         <MeuComponente componente={objeto.componente} />
                     </div>
                     ))}
                 </div>
-                <CardC/>
             </div>
             <FooterC/>
         </div>

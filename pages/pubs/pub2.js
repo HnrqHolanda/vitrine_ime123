@@ -1,4 +1,4 @@
-import { bannerImages } from '../../data/pubs/pub1/pub1array'
+import { bannerImages } from '../../data/pubs/pub2/pub2array'
 import Textpub2 from "../../data/pubs/pub2/pub2text"
 import PubC from "../../components/pub"
 
