@@ -4,15 +4,16 @@ import FooterC from "../../components/footer"
 import Image from "next/image"
 import BootstrapCarousel from '../../components/carousel1'
 import { bannerImages } from '../../data/pages/home/homearray'
-import pic1 from "../../public/labquim1.jpeg"
-import { MdComputer } from 'react-icons/md';
-import { RiBuilding2Line } from 'react-icons/ri';
-import { FaCog, FaMap } from 'react-icons/fa';
-import { IoIosFlask} from 'react-icons/io';
-import { GiMolecule } from 'react-icons/gi';
-import { FiRadio } from 'react-icons/fi';
-import { IoIosGitNetwork } from 'react-icons/io';
-import Link from "next/link"
+import image1 from "../../public/dsg.png"
+import image2 from "../../public/DCT_logo.gif"
+import image3 from "../../public/imbel.jpg"
+import image4 from "../../public/ime-junior.png"
+import image5 from "../../public/agr.png"
+import image6 from "../../public/ufpe.png"
+import YoutubePlayer from "../../components/videoYT"
+import image7 from "../../public/eblog.jpg"
+import SearchBar from "../../components/searchBar"
+
 
 export default function Homepage(){
 
@@ -23,106 +24,46 @@ export default function Homepage(){
             <HeaderC />
             <div className={styles.Slider}>
                 <div className={styles.Text1}>
-                    <h1>Acompanhe as Atividades</h1>
-                    <h1>Do Instituto Militar de Engenharia</h1>
-                    <h3>A primeira escola de engenharia das americas</h3>
+                    <h1>Vitrine Tecnológica</h1>
+                    <h3>Acompanhe os projetos do Instituto Militar de Engenharia. <br></br> A primeira escola de engenharia das américas.</h3>
                 </div>
-                <div class={styles.Carousel}>
-                    <BootstrapCarousel images={bannerImages}/>
+                    <div class={styles.Carousel}>
+                        <BootstrapCarousel images={bannerImages}/>
+                    </div>
+            </div>
+            <div className={styles.Content2}>
+                <div className={styles.view} >
+                    <div className={styles.view2}>
+                        <YoutubePlayer videoId="u1kEz8Z5JUc"/>
+                    </div>
+                    <div className={styles.textview}>     
+                        <h1>Produções do Núcleo de TV</h1>
+                        <h3>O IME E OS PROJETOS DE FOGUETE NO BRASIL</h3>
+                        <p>O IME foi pioneiro em projetar foguetes no Brasil. Nós fomos resgatar essa história e mostrar que os foguetes do Instituto Militar de Engenharia foram longe! Agora, o instituto se prepara para novos voos.</p>
+                    </div>
+                </div>
+                <div className={styles.view} style={{paddingTop:"50px"}}>
+                    <div className={styles.view2}>
+                        <Image src={image7} className={styles.imgart}></Image>
+                    </div>
+                    <div className={styles.textview}>     
+                        <h1>Artigo em Destaque</h1>
+                        <h3>A cooperação civil-militar em proveito do desenvolvimento de tecnologias críticas.</h3>
+                        <p>Gen Galdino - Comandante do Instituto Militar de Engenharia</p>
+                    </div>
                 </div>
             </div>
             <div className={styles.Content} id="passabaixo">
                     <div className={styles.Text2}>
-                        <h1>Áreas de pesquisa</h1>
-                        <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </h3>
+                        <h1>Instituições Parceiras</h1>
                     </div>
                     <div className={styles.board}>
-                        <div className={styles.card}>
-                            <Image src={pic1} className={styles.Ap}></Image>
-                            <Link href="http://localhost:3000/feeds/feed1" style={{textDecoration: "none"}}>
-                                <div className={styles.button}> 
-                                    <div className={styles.btnicon}>
-                                        <GiMolecule/>
-                                    </div> 
-                                    Engenharia Química
-                                </div>
-                            </Link>
-                        </div>
-                        <div className={styles.card}>
-                            <Image src={pic1} className={styles.Ap}></Image>
-                            <Link href="http://localhost:3000/feeds/feed2" style={{textDecoration: "none"}}>
-                                <div className={styles.button}>
-                                    <div className={styles.btnicon}>
-                                        <MdComputer/>
-                                    </div>
-                                    Engenharia da Computação
-                                </div>
-                            </Link>
-                        </div>
-                        <div className={styles.card}>
-                            <Image src={pic1} className={styles.Ap}></Image>
-                            <Link href="http://localhost:3000/feeds/feed3" style={{textDecoration: "none"}}>
-                            <div className={styles.button}> 
-                                <div className={styles.btnicon}>
-                                    <FaCog/>
-                                </div> 
-                                 Engenharia Mecânica
-                            </div>
-                            </Link>
-                        </div>
-                        <div className={styles.card}>
-                            <Image src={pic1} className={styles.Ap}></Image>
-                            <Link href="http://localhost:3000/feeds/feed4" style={{textDecoration: "none"}}>
-                            <div className={styles.button}> 
-                                <div className={styles.btnicon}>
-                                    <FaMap />
-                                </div> 
-                                    Engenharia Cartográfica
-                                </div>
-                            </Link>
-                        </div>
-                        <div className={styles.card}>
-                            <Image src={pic1} className={styles.Ap}></Image>
-                            <Link href="http://localhost:3000/feeds/feed5" style={{textDecoration: "none"}}>
-                            <div className={styles.button}> 
-                                <div className={styles.btnicon}> 
-                                    <IoIosFlask />
-                                </div>
-                                Engenharia de Materiais
-                            </div>
-                            </Link>
-                        </div>
-                        <div className={styles.card}>
-                            <Image src={pic1} className={styles.Ap}></Image>
-                            <Link href="http://localhost:3000/feeds/feed6" style={{textDecoration: "none"}}>
-                            <div className={styles.button}> 
-                                <div className={styles.btnicon}>
-                                    <RiBuilding2Line /> 
-                                 </div> 
-                                 Engenharia de Fortificação
-                            </div>
-                            </Link>
-                        </div> 
-                        <div className={styles.card}>
-                            <Image src={pic1} className={styles.Ap}></Image>
-                            <Link href="http://localhost:3000/feeds/feed3" style={{textDecoration: "none"}}>
-                            <div className={styles.button}> 
-                                <div className={styles.btnicon}> 
-                                    <IoIosGitNetwork /> 
-                                </div> 
-                                Engenharia Eletrônica
-                            </div>
-                            </Link>
-                        </div> 
-                        <div className={styles.card}>
-                            <Image src={pic1} className={styles.Ap}></Image>
-                            <Link href="http://localhost:3000/feeds/feed3" style={{textDecoration: "none"}}>
-                            <div className={styles.button}> 
-                                <div className={styles.btnicon}> <FiRadio/> </div>
-                                 Engenharia de Telecomunicações
-                            </div>
-                            </Link>
-                        </div> 
+                        <Image className={styles.imginst} style={{width: "95px"}} src={image2}></Image>
+                        <Image className={styles.imginst} src={image1}></Image>
+                        <Image className={styles.imginst} src={image5}></Image>
+                        <Image className={styles.imginst} src={image3}></Image>
+                        <Image className={styles.imginst} src={image4}></Image>
+                        <Image className={styles.imginst} src={image6}></Image>
                     </div>
 
             </div>

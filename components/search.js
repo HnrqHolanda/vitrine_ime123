@@ -10,8 +10,6 @@ const MeuComponente = ({ componente }) => {
 };
 
 const SearchC = (minhaString) => {
-
-
   function filtrarComponentes(array, termoDeBusca) {
     return array.filter(item => item.titulo.toLowerCase().includes(termoDeBusca.toLowerCase()));
 } 
@@ -26,11 +24,11 @@ const SearchC = (minhaString) => {
         <div className={styles.Title}>
           <h1>Resultados da pesquisa:</h1>
         </div>
-        {filtered_array.map((objeto, index) => (
-        <div key={index}>
-          <MeuComponente componente={objeto.componente} />
-        </div>
-      ))}
+          {filtered_array.map((objeto, index) => (
+          <div key={index}>
+            <MeuComponente componente={objeto.componente} />
+          </div>
+        ))}
       </div>
 
     )

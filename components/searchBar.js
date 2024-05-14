@@ -15,7 +15,7 @@ const SearchBar = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    router.push(`http://localhost:3000/result/results?query=${encodeURIComponent(query)}`)
+    router.push(`http://localhost:3000/cpint/cpint?query=${encodeURIComponent(query)}`)
     setQuery('')
   };
 
@@ -23,7 +23,7 @@ const SearchBar = () => {
     <form onSubmit={handleSubmit} className={styles.SearchBar}>
       <input
         type="text"
-        placeholder="Pesquisar..."
+        placeholder="Pesquisar por nome"
         value={query}
         onChange={handleChange}
       />

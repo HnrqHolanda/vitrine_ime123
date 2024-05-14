@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+}
+
+.main{
+    background-color: #49A9F8;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.tittle{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    padding-top: 50px;
+}

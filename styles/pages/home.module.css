@@ -4,16 +4,22 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
 }
 
 .Slider{
     background-color: #49A9F8;
-    height: 790px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 90vh;
+}
+
+.imginst{
+    width: 120px;
+    height: 120px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .Text1{
@@ -22,24 +28,23 @@
     text-align: center;
     color: white;
     font-weight: 700;
-    font-size: 30px;
     font-family: "Roboto", sans-serif;
     animation: brilho 2s linear infinite;
+    padding-top: 50px;
+}
+
+.Text1 h1{
+    font-size: 72px;
 }
 
 .Text1 h3{
     font-family: "Roboto";
-    margin-top: 30px;
     font-style: italic;
     font-weight: 300;
-    font-size: 26px;
+    font-size: 22px;
     
 }
 
-.Text1 h1{
-    margin-top: 30px;
-    margin-bottom: -20px;
-}
 
 
 .Carousel{
@@ -49,9 +54,8 @@
 }
 
 .Content{
-    margin-top: 50px;
-    background-color: rgb(255, 255, 255);
-    height: 1400px;
+    background-color: #ffffff;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -65,7 +69,8 @@
     flex-direction: column;
     align-items: center;
     width: 50%;
-    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .Text2 h1{
@@ -76,7 +81,7 @@
     font-weight: 700;
 }
 
-.Text2 h3{
+.Text2 h3{  
     color: #908c8c;
     font-family: "roboto", sans-serif;
     font-weight: 400;
@@ -85,23 +90,12 @@
 }
 
 .board{
-    margin-left: 0px;
-    padding-top: 24px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 80px;
-    justify-items: center; /* Centraliza o grid horizontalmente */
-    width: 80%;
-    height: auto;
-}
-.pic{
-    width: 16.7vw;
-    height: 22vw;
-    border-radius: 20px;
-    box-shadow: 0 2px 5px #0000006d;
-    margin-right: 20px;
-}
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 
+
+}
 
 .Carousel{
     margin-top: 30px;
@@ -152,6 +146,45 @@
     padding-top: 4px;
     margin-right: 10px;
 }
+
+.Content2{
+    margin-top: 70px;
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.view{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.textview{
+    text-align: start;
+    color: #0f0049;
+    width: 50%;
+}
+.textview h1{
+    font-size: 52px;
+    padding-bottom: 15px;
+}
+.textview h3{
+    font-size: large;
+    color: #0f0049;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.imgart{
+    width: 520px;
+    height: 240px;
+}
+
+
 
 
 
