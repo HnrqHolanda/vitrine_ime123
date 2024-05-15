@@ -8,7 +8,7 @@ const ImageSlider = ({images}) => {
 
     const settings = {
         dots:true,
-        speed:2000,
+        speed:5000,
         slideToShow:1,
         slideToScroll:1,
         initialSlide:0,

@@ -5,6 +5,7 @@
     box-shadow: 0 2px 5px #0000006d;
     display: flex;
     align-items: center;
+    border-radius: 40px;
     justify-content: center;
 
 } 
@@ -25,14 +26,15 @@
     flex-direction: column;
     width: 240px;
     height: 240px;
-    background: linear-gradient(#fb3333 90px, white 90px);
+    background: linear-gradient(#00049f 80px, #fff 80px);
     box-shadow: 0 2px 5px #0000006d;
     border: 3px solid white;
+    border-radius: 25px;
 }
 
 .img2{
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 120px;
     border: 3px solid white;
     box-shadow: 0 2px 5px #0000006d;

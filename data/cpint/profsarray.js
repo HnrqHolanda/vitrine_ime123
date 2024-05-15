@@ -15,7 +15,59 @@ const prof_array = [
     {
       titulo: "Capitão Moraes",
       componente: <ProfC mimage={main_image3} Name='Capitão Moraes'sum='Doutor em Engenharia Mecânica' link="http://localhost:3000/home/home" />
-    }
+    },
+    {
+      titulo: "Prof. Gerson Bazo",
+      componente: <ProfC mimage={main_image1} Name='Prof. Gerson Bazo'sum='Doutor em Ciências dos Materiais' link="http://localhost:3000/home/home"/>
+    },
+    {
+      titulo: "Prof. Gerson Bazo",
+      componente: <ProfC mimage={main_image1} Name='Prof. Gerson Bazo'sum='Doutor em Ciências dos Materiais' link="http://localhost:3000/home/home"/>
+    },
+    {
+      titulo: "Prof. Gerson Bazo",
+      componente: <ProfC mimage={main_image1} Name='Prof. Gerson Bazo'sum='Doutor em Ciências dos Materiais' link="http://localhost:3000/home/home"/>
+    },
+    {
+      titulo: "Prof. Gerson Bazo",
+      componente: <ProfC mimage={main_image1} Name='Prof. Gerson Bazo'sum='Doutor em Ciências dos Materiais' link="http://localhost:3000/home/home"/>
+    },
+    {
+      titulo: "Prof. Gerson Bazo",
+      componente: <ProfC mimage={main_image1} Name='Prof. Gerson Bazo'sum='Doutor em Ciências dos Materiais' link="http://localhost:3000/home/home"/>
+    },
+    {
+      titulo: "Prof. Gerson Bazo",
+      componente: <ProfC mimage={main_image1} Name='Prof. Gerson Bazo'sum='Doutor em Ciências dos Materiais' link="http://localhost:3000/home/home"/>
+    },
+    {
+      titulo: "Prof. Gerson Bazo",
+      componente: <ProfC mimage={main_image1} Name='Prof. Gerson Bazo'sum='Doutor em Ciências dos Materiais' link="http://localhost:3000/home/home"/>
+    },
+    {
+      titulo: "Prof. Gerson Bazo",
+      componente: <ProfC mimage={main_image1} Name='Prof. Gerson Bazo'sum='Doutor em Ciências dos Materiais' link="http://localhost:3000/home/home"/>
+    },
+    {
+      titulo: "Prof. Gerson Bazo",
+      componente: <ProfC mimage={main_image1} Name='Prof. Gerson Bazo'sum='Doutor em Ciências dos Materiais' link="http://localhost:3000/home/home"/>
+    },
+    {
+      titulo: "Prof. Gerson Bazo",
+      componente: <ProfC mimage={main_image1} Name='Prof. Gerson Bazo'sum='Doutor em Ciências dos Materiais' link="http://localhost:3000/home/home"/>
+    },
+    {
+      titulo: "Prof. Gerson Bazo",
+      componente: <ProfC mimage={main_image1} Name='Prof. Gerson Bazo'sum='Doutor em Ciências dos Materiais' link="http://localhost:3000/home/home"/>
+    },
+    {
+      titulo: "Prof. Gerson Bazo",
+      componente: <ProfC mimage={main_image1} Name='Prof. Gerson Bazo'sum='Doutor em Ciências dos Materiais' link="http://localhost:3000/home/home"/>
+    },
+    {
+      titulo: "Prof. Gerson Bazo",
+      componente: <ProfC mimage={main_image1} Name='Prof. Gerson Bazo'sum='Doutor em Ciências dos Materiais' link="http://localhost:3000/home/home"/>
+    },
   ];
 
 export default prof_array

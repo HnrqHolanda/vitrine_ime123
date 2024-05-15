@@ -17,11 +17,11 @@ export default function CpIntPage(){
             <div className={styles.main}>
                 <SideBarC/>
                 <div className={styles.content}>
-                    <div className={styles.sbar}>
-                        <h1>Professores:</h1>
-                        <SearchBar/>
-                    </div>
-                    <Grid2 string={query}/>
+                <div className={styles.sbar}>
+                    <h1>Pesquisadores do IME:</h1>
+                    <SearchBar/>
+                </div>
+                <Grid2 string={query}/>
                 </div>
             </div>
         </div>
