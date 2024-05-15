@@ -17,7 +17,7 @@ const HeaderC = () => {
             <div className={styles.links}>
                 
                 <Link href="http://localhost:3000/home/home" className={styles.LinkEstilizado}>Home</Link>
-                <Link href="" className={styles.LinkEstilizado}>Grupos de Pesquisa</Link>
+                <Link href="http://localhost:3000/grupesq/grupesq" className={styles.LinkEstilizado}>Grupos de Pesquisa</Link>
                 <Link href="http://localhost:3000/cpint/cpint?query=" className={styles.LinkEstilizado}>Capital Intelectual</Link>
                 <Link href="" className={styles.LinkEstilizado}>Propriedade Intelectual</Link>
                 <Link href="http://localhost:3000/laboratorio/laboratorios" className={styles.LinkEstilizado}>Laboratórios</Link>
