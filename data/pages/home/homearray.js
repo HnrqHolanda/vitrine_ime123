@@ -1,4 +1,4 @@
-import slide1 from '../../../public/Imersão2.jpg'
+import slide1 from '../../../public/imersão2.jpg'
 import slide2 from '../../../public/grifotuc1.jpg'
 import slide3 from '../../../public/papirozero1.jpg'
 
