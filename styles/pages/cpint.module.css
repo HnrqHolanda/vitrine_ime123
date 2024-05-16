@@ -10,11 +10,12 @@
 .main{
     background-color: #49A9F8;
     display: grid;
-    grid-template-columns: 18% 90%;
+    grid-template-columns: 18% 82%;
     height: 100vh;
 }
 
 .content{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,10 +28,13 @@
     height: 100;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #fff;
-    font-weight: 800;
-    font-size: 30px;
-    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 26px;
     font-style: italic;
+    background-color: #49a9f8;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    
 }

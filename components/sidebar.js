@@ -1,47 +1,52 @@
-import Link from "next/link"
 import styles from "../styles/components/sidebar.module.css"
 import { FaDesktop, FaBook, FaBolt, FaLaptop, FaAtom, FaFlask, FaMicroscope, FaMap, FaCog } from 'react-icons/fa';
 import { Fade } from "react-bootstrap";
+import { useState } from "react";
 
 const SideBarC= () =>{
+    const [selectedButton, setSelectedButton] = useState(1);
+
+    const handleButtonClick = (value) => {
+        setSelectedButton(value);
+        console.log(value)
+      };
+
+    
     return(
         <div className={styles.container}>
-<<<<<<< Updated upstream
 
-=======
             <div className={styles.main}>
-                <div className={styles.LinkEst}>
-                    <Link href="http://localhost:3000/home/home" className={styles.link}><FaBook style={{marginRight:"10px", marginTop:"2px"}}/>SE-1</Link>
+                <div className={styles.buttonEst}>
+                    <button  onClick={() => handleButtonClick(1)} className={styles.button}><FaBook style={{marginRight:"10px", marginTop:"2px"}}/>SE-1</button>
                 </div>
-                <div className={styles.LinkEst}>
-                    <Link href="http://localhost:3000/home/home" className={styles.link}><FaDesktop style={{marginRight:"10px", marginTop:"2px"}}/>SE-2</Link>
+                <div className={styles.buttonEst}>
+                    <button onClick={() => handleButtonClick(2)}  className={styles.button}><FaDesktop style={{marginRight:"10px", marginTop:"2px"}}/>SE-2</button>
                 </div>
-                <div className={styles.LinkEst}>
-                    <Link href="http://localhost:3000/home/home" className={styles.link}><FaBolt style={{marginRight:"10px", marginTop:"2px"}}/>SE-3</Link>
+                <div className={styles.buttonEst}>
+                    <button onClick={() => handleButtonClick(3)}  className={styles.button}><FaBolt style={{marginRight:"10px", marginTop:"2px"}}/>SE-3</button>
                 </div>
-                <div className={styles.LinkEst}> 
-                    <Link href="http://localhost:3000/home/home" className={styles.link}><FaMicroscope style={{marginRight:"10px", marginTop:"2px"}}/>SE-4</Link>
+                <div className={styles.buttonEst}> 
+                    <button onClick={() => handleButtonClick(4)} className={styles.button}><FaMicroscope style={{marginRight:"10px", marginTop:"2px"}}/>SE-4</button>
                 </div>
-                <div className={styles.LinkEst}>
-                    <Link href="http://localhost:3000/home/home" className={styles.link}><FaFlask style={{marginRight:"10px", marginTop:"2px"}}/>SE-5</Link>
+                <div className={styles.buttonEst}>
+                    <button onClick={() => handleButtonClick(5)} className={styles.button}><FaFlask style={{marginRight:"10px", marginTop:"2px"}}/>SE-5</button>
                 </div>
-                <div className={styles.LinkEst}>
-                    <Link href="http://localhost:3000/home/home" className={styles.link}><FaMap style={{marginRight:"10px", marginTop:"2px"}}/>SE-6</Link>
+                <div className={styles.buttonEst}>
+                    <button onClick={() => handleButtonClick(6)} className={styles.button}><FaMap style={{marginRight:"10px", marginTop:"2px"}}/>SE-6</button>
                 </div>
-                <div className={styles.LinkEst}>
-                    <Link href="http://localhost:3000/home/home" className={styles.link}><FaAtom style={{marginRight:"10px", marginTop:"2px"}}/>SE-7</Link>
+                <div className={styles.buttonEst}>
+                    <button onClick={() => handleButtonClick(7)} className={styles.button}><FaAtom style={{marginRight:"10px", marginTop:"2px"}}/>SE-7</button>
                 </div>
-                <div className={styles.LinkEst}>
-                <Link href="http://localhost:3000/home/home" className={styles.link}><FaCog style={{marginRight:"10px", marginTop:"2px"}}/>SE-8</Link>
+                <div className={styles.buttonEst}>
+                <button onClick={() => handleButtonClick(8)} className={styles.button}><FaCog style={{marginRight:"10px", marginTop:"2px"}}/>SE-8</button>
                 </div>
-                <div className={styles.LinkEst}>
-                <Link href="http://localhost:3000/home/home" className={styles.link}> <FaLaptop style={{marginRight:"10px", marginTop:"2px"}}/>SE-9</Link>
+                <div className={styles.buttonEst}>
+                <button onClick={() => handleButtonClick(9)}  className={styles.button}> <FaLaptop style={{marginRight:"10px", marginTop:"2px"}}/>SE-9</button>
                 </div>
-                <div className={styles.LinkEst}>
-                <Link href="http://localhost:3000/home/home" className={styles.link}><FaDesktop style={{ marginLeft:"10px", marginRight:"10px", marginTop:"2px"}}/>SE-10</Link>
+                <div className={styles.buttonEst}>
+                <button onClick={() => handleButtonClick(10)}  className={styles.button}><FaDesktop style={{ marginLeft:"10px", marginRight:"10px", marginTop:"2px"}}/>SE-10</button>
                 </div>
             </div>
->>>>>>> Stashed changes
         </div>
     )
 }
