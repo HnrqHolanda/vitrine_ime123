@@ -1,0 +1,45 @@
+.Container {    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;    
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #49A9F8;
+    height: 40vh;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Text {
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: Roboto, sans-serif;  
+    text-align: center;  
+}
+.Text2 {
+    
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: Roboto, sans-serif;  
+    text-align: center;  
+}
+.Images{
+    margin: 20px auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
