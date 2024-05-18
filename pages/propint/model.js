@@ -1,20 +1,20 @@
 export const _patentes = {
     concedidas: {
-        2023: ["BR 10 2023 003765 8 - PROCEDIMENTO DE ELETRODEPOSIÇÃO DE ÓXIDO DE GRAFENO E NIÓBIA EM SUBSTRATOS METÁLICOS DE TITÂNIO"]
+        2023: ["BR 10 2023 003765 8 - Procedimento De Eletrodeposição de Óxido de Grafeno E Nióbia em substratos metálicos de titânio"]
     },
     depositadas: {
-        2021: ["COMPOSIÇÃO ESTABILIZANTE DE ÉTERES NITRADOS E USO DE TAL COMPOSIÇÃO"]
+        2021: ["Composição estabilizante de Éteres Nitrados e uso de tal composição"]
         ,
         2020: [
-            "COMPOSIÇÃO COM FIBRA DE JUTA E POLIÉSTER, COMPÓSITO, PROCESSO E USO",
-            "COMPOSIÇÃO COM FIBRA DE JUTA E EPÓXI, COMPÓSITO, PROCESSO E USO",
-            "COMPOSIÇÃO COM FIBRA DE FIQUE E POLIÉSTER, COMPÓSITO, PROCESSO E USO",
-            "COMPOSIÇÃO COM FIBRA DE CARANÃ E EPÓXI, COMPÓSITO, PROCESSO E USO",
-            "COMPOSIÇÃO COM FIBRA DE FIQUE E EPÓXI, COMPÓSITO, PROCESSO E USO",
-            "SUBSTÂNCIAS DERIVADAS DE VANILINAS E SEUS ANÁLOGOS E DERIVADOS, SEUS INTERMEDIÁRIOS, PRODUTOS, MÉTODO DE OBTENÇÃO E USOS COMO ATIVADORES, REATIVADORES, INIBIDORES OU PROTETORES DAS COLINESTERASES",
-            "COMPÓSITO À BASE DE NIÓBIO METÁLICO E PROCESSOS DE PRODUÇÃO DE COMPÓSITO À BASE DE NIÓBIO",
-            "PLACA DE PROTEÇÃO BALÍSTICA À BASE DE MATERIAL POLIMÉRICO REFORÇADO COM PARTÍCULAS CERÂMICAS SINTERIZADAS",
-            "SISTEMA PORTÁTIL DE AVALIAÇÃO MICROESTRUTURAL NÃO DESTRUTIVA POR CONDUTIVIDADE ELÉTRICA EM JUNTAS SOLDADAS"
+            "Composição com Fibra de Juta e Poliéster, Compósito, processo e uso",
+            "Composição com Fibra de Juta e epóxi, Compósito, processo e uso",
+            "Composição com Fibra de Fique e poliéster, Compósito, processo e uso",
+            "Composição com Fibra de Caranã e epóxi, Compósito, processo e uso",
+            "Composição com Fibra de Fique e epóxi, Compósito, processo e uso",
+            "Substâncias derivadas de vanilinas e seus análogos e derivados, seus intermediários, produtos, método de obtenção e usos como ativadores, reativadores, inibidores ou protetores das colinesterases",
+            "Compósito à base de nióbio metálico e processos DE produção de compósito à Base de nióbio",
+            "Placa de proteção balística à base de material polimérico reforçado com partículas Cerâmicas Sinterizadas",
+            "Sistema portátil de avaliação microestrutural não destrutiva por condutividade elétrica em juntas soldadas"
         ]
     }
 }

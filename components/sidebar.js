@@ -2,20 +2,15 @@ import styles from "../styles/components/sidebar.module.css"
 import { FaDesktop, FaBook, FaBolt, FaLaptop, FaAtom, FaFlask, FaMicroscope, FaMap, FaCog } from 'react-icons/fa';
 import { Fade } from "react-bootstrap";
 import { useState } from "react";
+import SearchBar from "./searchBar";
 
 const SideBarC= () =>{
-    const [selectedButton, setSelectedButton] = useState(1);
-
-    const handleButtonClick = (value) => {
-        setSelectedButton(value);
-        console.log(value)
-      };
-
     
     return(
         <div className={styles.container}>
 
             <div className={styles.main}>
+                <SearchBar/>
                 <div className={styles.buttonEst}>
                     <button  onClick={() => handleButtonClick(1)} className={styles.button}><FaBook style={{marginRight:"10px", marginTop:"2px"}}/>SE-1</button>
                 </div>

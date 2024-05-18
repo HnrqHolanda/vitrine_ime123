@@ -12,7 +12,8 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 45px;
 }
 
 .board{

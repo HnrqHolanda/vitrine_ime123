@@ -3,6 +3,7 @@ import styles from "../../styles/pages/laboratorios.module.css"
 import CardC from "../../components/card_se"
 import image1 from '../../public/imersão1.jpg'
 import lab_array from "../../data/labs/SE_1/labs_array"
+import FooterC from "../../components/footer"
 
 export default function LabPage(){
     return(
@@ -24,6 +25,7 @@ export default function LabPage(){
                     <CardC dataarray={lab_array} title='SE9 - Engenharia da Computação'/>
                 </div>
             </div>
+            <FooterC/>
         </div>
     )
 }

@@ -7,12 +7,10 @@
 
 .main{
     background-color: #49A9F8;
-    margin-top: 40px;
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
-    padding-top: 20px;
 }
 
 .board{

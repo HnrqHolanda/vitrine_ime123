@@ -15,7 +15,7 @@ const SearchBar = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    router.push(`http://localhost:3000/cpint/cpint?query=${encodeURIComponent(query)}`)
+    router.push(`http://localhost:3000/results/result?query=${encodeURIComponent(query)}`)
     setQuery('')
   };
 

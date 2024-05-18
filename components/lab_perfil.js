@@ -20,7 +20,6 @@ const Lab_perfilC = ({BannerImages, title, resume, professores, list}) =>{
                     </div>
                 </div>
             </div>
-            <FooterC/>
         </div>   
     )
 }

@@ -1,10 +1,10 @@
-import styles from "../../styles/pages/cpint.module.css"
-import HeaderC from "../../components/header"
-import SearchBar from "../../components/searchBar"
-import Grid2 from "../../components/grid2"
+import styles from "../../../styles/pages/cpint.module.css"
+import HeaderC from "../../../components/header"
+import SearchBar from "../../../components/searchBar"
+import Grid2 from "../../../components/grid_profs"
 import { useSearchParams } from 'next/navigation';
-import SideBarC from "../../components/sidebar";
-import prof_array from "../../data/cpint/SE1/profsarray";
+import SideBarC from "../../../components/sidebar";
+import prof_array from "../../../data/cpint/SE1/profsarray";
 
 export default function CpIntPage(index){
 

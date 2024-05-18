@@ -10,8 +10,9 @@
 .main{
     background-color: #49A9F8;
     display: grid;
-    grid-template-columns: 18% 82%;
+    grid-template-columns: 22% 78%;
     height: 100vh;
+    padding-top: -20px;
 }
 
 .content{
@@ -23,7 +24,7 @@
 }
 
 .sbar{
-    margin-top: 100px;
+    margin-top: 40px;
     width: 70%;
     height: 100;
     display: flex;

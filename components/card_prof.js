@@ -1,4 +1,4 @@
-import styles from "../styles/components/prof.module.css"
+import styles from "../styles/components/card_prof.module.css"
 import Image from "next/image";
 import Link from "next/link";
 
@@ -12,7 +12,7 @@ const ProfC = ({mimage, Name, link, sum}) => {
                         </div>
                         <div className={styles.text}>
                             <h1>{Name}</h1>
-                            <h3 style={{fontStyle: "italic"}}>{sum}</h3>
+                            <h3>{sum}</h3>
                         </div>
                     </div>
                 </Link>

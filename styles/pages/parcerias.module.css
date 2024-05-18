@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
+    align-items: center;
 }
 
 .main{
@@ -11,7 +12,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #49A9F8;
-    height: 100vh;
+    height: 90vh;
 }
 
 .Content{
@@ -78,7 +79,7 @@
 }
 
 .invite{
-    width: 100%;
+    width: 90%;
     padding-top: 60px;
     padding-bottom: 100px;
     display: flex;

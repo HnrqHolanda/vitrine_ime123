@@ -12,6 +12,7 @@ import image5 from "../../public/agr.png"
 import image6 from "../../public/ufpe.png"
 import YoutubePlayer from "../../components/videoYT"
 import image7 from "../../public/eblog.jpg"
+import Link from "next/link"
 
 export default function Homepage() {
 
@@ -42,7 +43,9 @@ export default function Homepage() {
                 </div>
                 <div className={styles.view} style={{ paddingTop: "50px" }}>
                     <div className={styles.view2}>
+                        <Link href="https://eblog.eb.mil.br/w/a-cooperacao-civil-militar-em-proveito-do-desenvolvimento-de-tecnologias-criticas?p_l_back_url=%2Fweb%2Fguest%3Fcategory%3D42829&p_l_back_url_title=EBlog">
                         <Image src={image7} className={styles.imgart}></Image>
+                        </Link>
                     </div>
                     <div className={styles.textview}>
                         <h1>Artigo em Destaque</h1>
@@ -61,7 +64,7 @@ export default function Homepage() {
                     <Image className={styles.imginst} src={image5}></Image>
                     <Image className={styles.imginst} src={image3}></Image>
                     <Image className={styles.imginst} src={image4}></Image>
-                    <Image className={styles.imginst} src={image6}></Image>
+                    <Image className={styles.imginst} style={{width:"85px"}} src={image6}></Image>
                 </div>
 
             </div>

@@ -1,5 +1,5 @@
 import Lab_perfilC from "../../../components/lab_perfil"
-import { bannerImages } from "../../../data/pages/home/homearray"
+import { bannerImages } from "../../../data/labs/SE_1/labIC_imgs"
 
 export default function Lab1Page(){
 
