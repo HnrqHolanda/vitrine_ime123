@@ -10,7 +10,10 @@ import grupos_array4 from "../../data/grupesq/gp4/linhas_array"
 import grupos_array5 from "../../data/grupesq/gp5/linhas_array"
 import grupos_array6 from "../../data/grupesq/gp6/linhas_array"
 import grupos_array7 from "../../data/grupesq/gp7/linhas_array"
-
+import grupos_array8 from "../../data/grupesq/gp8/linhas_array"
+import grupos_array9 from "../../data/grupesq/gp9/linhas_array"
+import grupos_array10 from "../../data/grupesq/gp10/linhas_array"
+import grupos_array11 from "../../data/grupesq/gp11/linhas_array"
 
 export default function LabPage(){
     return(
@@ -28,10 +31,10 @@ export default function LabPage(){
                     <CardC dataarray={grupos_array5} title='Planejamento e Operação de Transportes (PO)'/>
                     <CardC dataarray={grupos_array6} title='Infraestrutura de Transportes (INFRA)'/>
                     <CardC dataarray={grupos_array7} title='Ciência da computação'/>
-                    <CardC dataarray={grupos_array} title='Sistemas Eletrônicos de Defesa e Comunicações.'/>
-                    <CardC dataarray={grupos_array} title='Engenharia Nuclear'/>
-                    <CardC dataarray={grupos_array} title='Engenharia Química'/>
-                    <CardC dataarray={grupos_array} title='Engenharia de Defesa'/>
+                    <CardC dataarray={grupos_array8} title='Sistemas Eletrônicos de Defesa e Comunicações.'/>
+                    <CardC dataarray={grupos_array9} title='Engenharia Nuclear'/>
+                    <CardC dataarray={grupos_array10} title='Engenharia Química'/>
+                    <CardC dataarray={grupos_array11} title='Engenharia de Defesa'/>
                 </div>
             </div>
         </div>

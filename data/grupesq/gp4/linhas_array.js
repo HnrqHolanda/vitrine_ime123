@@ -1,7 +1,7 @@
 const grupos_array = [
     {
       nome: "Fenômenos Balísticos",
-      link: "http://localhost:3000/gpesq/prog_mat/lp1"
+      link: "http://localhost:3000/gpesq/prog_mec2/lp1"
     }
   ];
 

@@ -1,21 +1,17 @@
 const grupos_array = [
     {
-      nome: "Materiais Metálicos",
-      link: "http://localhost:3000/gpesq/prog_mat/lp1"
+      nome: "Engenharia de Sistemas e Informação",
+      link: "http://localhost:3000/gpesq/prog_comp/lp1"
     },
     {
-      nome: "Mecatrônica Eletrônicos",
-      link: "http://localhost:3000/gpesq/prog_mat/lp2"
+      nome: "Metodologia da Computação",
+      link: "http://localhost:3000/gpesq/prog_comp/lp2"
       
     },
     {
-      nome: "Materiais Cerâmicos",
-      link: "http://localhost:3000/gpesq/prog_mat/lp3"
-    },
-    {
-        nome: "Materiais Poliméricos",
-        link: "http://localhost:3000/gpesq/prog_mat/lp4"
-    },
+      nome: "Sistemas de Computação",
+      link: "http://localhost:3000/gpesq/prog_comp/lp3"
+    }
   ];
 
 export default grupos_array;

@@ -1,6 +1,6 @@
 const grupos_array = [
     {
-      nome: "Comunicações e Inteligência em Sistemas de Defesa (CSD)",
+      nome: "Automação, Controle e Operação de Sistemas",
       profs_resp: "",
       link: "http://localhost:3000/home/home"
     },
