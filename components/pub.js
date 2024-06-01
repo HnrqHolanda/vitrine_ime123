@@ -9,7 +9,6 @@ const PubC = ({images, Textpub}) => {
         <div className={styles.Container}>
         <HeaderC/>
         <div className={styles.Content}>
-            <BootstrapCarousel images={images}/>
             <Textpub />
         </div>
         <FooterC/>

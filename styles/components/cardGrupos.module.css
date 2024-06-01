@@ -12,12 +12,13 @@
 }
 
 .text{
-    font-size: 14px; /* titulo */
+    font-size: 12px; /* titulo */
     margin-bottom: 5px;
     color: #0f0049;
+    font-weight: lighter;
     font-family: "roboto", sans-serif;
-    font-weight: 700;
     width: 80%;
+    font-style: normal;
 }
 
 .expandablebutton {
@@ -53,8 +54,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 20px;
-    height: 75px;
+    font-size: 18px;
+    height: 50px;
   }
 
   .menu2{
@@ -71,7 +72,7 @@
     transition: 0.3s ease;
   }
   .sub:hover{
-    font-size: 28px;
+    font-size: 21px;
   }
   .link{
     text-decoration: none;

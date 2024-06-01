@@ -1,6 +1,9 @@
 export const _patentes = {
     concedidas: {
-        2023: ["BR 10 2023 003765 8 - Procedimento De Eletrodeposição de Óxido de Grafeno E Nióbia em substratos metálicos de titânio"]
+        2023: ["BR 10 2023 003765 8 - Procedimento De Eletrodeposição de Óxido de Grafeno E Nióbia em substratos metálicos de titânio"],
+        2024: ["Composição estabilizante de Éteres Nitrados e uso de tal composição"],
+        2022: ["Composição estabilizante de Éteres Nitrados e uso de tal composição"],
+        2021: ["Composição estabilizante de Éteres Nitrados e uso de tal composição"],
     },
     depositadas: {
         2021: ["Composição estabilizante de Éteres Nitrados e uso de tal composição"]
@@ -46,6 +49,26 @@ export const _registros = {
         "10/08/2023	SiTeBal - Simulador da termoquímica de propelentes e da balística interna de armas de cano/tubo",
         "27/06/2023	Better - Chat",
         "02/06/2023	AUTOMATA - Ambiente Computacional para Combate Automático a Fake News"
+    ],
+    2022: [
+        "14/03/2024	Materials Science Technological Foresight System (MatSci-TFS)",
+        "14/03/2024	Natural Language Processing Technological Foresight System (NLP-TFS)",
+        "02/02/2024	EstimaRF - Estimação de Níveis de Sinal de Radiofrequência Utilizando Aprendizado De Máquina",
+        "02/02/2024	Calculador PSA",
+        "02/02/2024	Sentinela Virtual",
+        "02/02/2024	PATACiber - Programa de Análise e Tratamento de Ameaças Cibernéticas",
+        "02/02/2024	SODA - Sistema de Observação das Disciplinas Atitudinais",
+        "31/01/2024	SAP TRL - Sistema de Apoio à Prospecção Tecnológica Baseada em TRL e Aprendizado de Máquina"
+    ],
+    2021: [
+        "14/03/2024	Materials Science Technological Foresight System (MatSci-TFS)",
+        "14/03/2024	Natural Language Processing Technological Foresight System (NLP-TFS)",
+        "02/02/2024	EstimaRF - Estimação de Níveis de Sinal de Radiofrequência Utilizando Aprendizado De Máquina",
+        "02/02/2024	Calculador PSA",
+        "02/02/2024	Sentinela Virtual",
+        "02/02/2024	PATACiber - Programa de Análise e Tratamento de Ameaças Cibernéticas",
+        "02/02/2024	SODA - Sistema de Observação das Disciplinas Atitudinais",
+        "31/01/2024	SAP TRL - Sistema de Apoio à Prospecção Tecnológica Baseada em TRL e Aprendizado de Máquina"
     ]
 }
 export default function model() {

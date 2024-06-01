@@ -14,7 +14,7 @@
 }
 
 .board{
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     width: 65%;
@@ -27,5 +27,6 @@
     font-size: 40px;    
     font-weight: 700;
     font-family: "Roboto", sans-serif;
-    padding-top: 50px;
+    font-style: italic;
+    padding-top: 20px;
 }

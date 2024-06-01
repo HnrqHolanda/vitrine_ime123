@@ -3,7 +3,7 @@ import styles from "../styles/components/labperfil.module.css"
 import HeaderC from './header'
 import FooterC from './footer'
 
-const Lab_perfilC = ({BannerImages, title, resume, professores, list}) =>{
+const Lab_perfilC = ({BannerImages, title, resume, professores, contatos, list}) =>{
     return(
         <div className={styles.container}>
             <HeaderC/>
@@ -16,6 +16,7 @@ const Lab_perfilC = ({BannerImages, title, resume, professores, list}) =>{
                     <h3>{resume}</h3>
                     <div className={styles.text2}>
                         <h3>{professores}</h3>
+                        <h3>{contatos}</h3>
                         <h3>{list}</h3>
                     </div>
                 </div>
