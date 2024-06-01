@@ -1,10 +1,10 @@
-import BootstrapCarousel from "../components/carousel"
-import { bannerImages } from '../data/pages/home/homearray'
+import HeaderC from "../components/header"
 
-export default function teste(){
+export default function testePage(){
     return(
         <div>
-            <BootstrapCarousel images={bannerImages}/>
+            <HeaderC/>
+            <h1>Hello World!</h1>
         </div>
     )
 }

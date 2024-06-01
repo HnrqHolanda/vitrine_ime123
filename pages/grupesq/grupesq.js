@@ -5,6 +5,12 @@ import grupos_array from "../../data/grupesq/grupos_array"
 import styles from '../../styles/pages/grupesq.module.css'
 import grupos_array1 from "../../data/grupesq/gp1/linhas_array"
 import grupos_array2 from "../../data/grupesq/gp2/linhas_array"
+import grupos_array3 from "../../data/grupesq/gp3/linhas_arrays"
+import grupos_array4 from "../../data/grupesq/gp4/linhas_array"
+import grupos_array5 from "../../data/grupesq/gp5/linhas_array"
+import grupos_array6 from "../../data/grupesq/gp6/linhas_array"
+import grupos_array7 from "../../data/grupesq/gp7/linhas_array"
+
 
 export default function LabPage(){
     return(
@@ -17,10 +23,12 @@ export default function LabPage(){
                 <div className={styles.board}>
                     <CardC dataarray={grupos_array1} title='Tecnologia de Informação Geográfica' />
                     <CardC dataarray={grupos_array2} title='Propriedades Físicas e Comportamento Mecânico dos Materiais - Ciência dos Materiais'/>
-                    <CardC dataarray={grupos_array} title='Veículos Militares'/>
-                    <CardC dataarray={grupos_array} title='Planejamento e Operação de Transportes (PO)'/>
-                    <CardC dataarray={grupos_array} title='Infraestrutura de Transportes (INFRA)'/>
-                    <CardC dataarray={grupos_array} title='Ciência da computação'/>
+                    <CardC dataarray={grupos_array3} title='Veículos Militares'/>
+                    <CardC dataarray={grupos_array4} title='Armamento'/>
+                    <CardC dataarray={grupos_array5} title='Planejamento e Operação de Transportes (PO)'/>
+                    <CardC dataarray={grupos_array6} title='Infraestrutura de Transportes (INFRA)'/>
+                    <CardC dataarray={grupos_array7} title='Ciência da computação'/>
+                    <CardC dataarray={grupos_array} title='Sistemas Eletrônicos de Defesa e Comunicações.'/>
                     <CardC dataarray={grupos_array} title='Engenharia Nuclear'/>
                     <CardC dataarray={grupos_array} title='Engenharia Química'/>
                     <CardC dataarray={grupos_array} title='Engenharia de Defesa'/>

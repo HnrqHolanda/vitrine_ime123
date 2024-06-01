@@ -1,6 +1,3 @@
-import PubC from "../../../components/pub"
-import Textpub1 from "../../../data/pubs/pub1/pub1text"
-import { bannerImages } from "../../../data/pubs/pub1/pub1array"
 import LpcontentC from "../../../components/lp_content"
 
 

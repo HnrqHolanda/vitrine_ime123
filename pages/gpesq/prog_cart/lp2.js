@@ -5,7 +5,7 @@ import LpcontentC from "../../../components/lp_content"
 
 
 
-export default function lp1page(){
+export default function lp2page(){
 
     const list1 = <ul>Docentes:
     <li style={{marginLeft: "20px"}}>
