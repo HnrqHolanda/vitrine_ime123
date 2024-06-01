@@ -19,7 +19,7 @@
 .text h1{
     font-size: 54px;
     font-style: italic;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .text h3{
@@ -32,7 +32,12 @@
 
 .lists{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     width: 70%;
+}
+
+.list1{
+    margin-bottom: 20px;
 }
 

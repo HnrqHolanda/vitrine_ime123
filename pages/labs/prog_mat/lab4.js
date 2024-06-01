@@ -8,7 +8,7 @@ export default function Lab1Page(){
         sistema doméstico para pulverização catódica;
         </li>
         <li style={{marginLeft: "20px"}}>
-        equipamento de evaporação Balzers;2
+        equipamento de evaporação Balzers;
         </li>
         <li style={{marginLeft: "20px"}}>
         três acessórios de microanálise de raios X por dispersão de energia, marcas Noran e Bruker; 

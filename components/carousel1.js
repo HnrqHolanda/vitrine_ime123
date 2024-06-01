@@ -11,7 +11,7 @@ const ImageSlider = ({images}) => {
 
     const settings = {
         dots:true,
-        speed:3000,
+        speed:3500,
         slideToShow:1,
         slideToScroll:1,
         initialSlide:0,
@@ -24,7 +24,7 @@ const ImageSlider = ({images}) => {
           <div>
             <ul style={{ margin: "0px", padding: "0px" }}> {dots} </ul>
             <div className={styles.Slidercaption}>
-              <Link href={images[currentSlide].url} style={{textDecoration: "none", color: "white"}}>{images[currentSlide].caption}</Link>
+              <Link href={images[currentSlide].url} style={{textDecoration: "none", color: "white", fontSize: "28px"}}>{images[currentSlide].caption}</Link>
             </div>
           </div>
 
