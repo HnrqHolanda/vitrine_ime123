@@ -35,13 +35,32 @@ export default function parceriaPage(){
                         </div>
                     </div>
             </div>
-            <div className={styles.Content2} >
-                <div className={styles.invContent}>
-                    <Image src={ime2} style={{width: '1200px', height:'400px', border: '4px solid #49A9F8'}}></Image>
-                    <div className={styles.invText}>
-                        <div className={styles.invText2}>
-                            <h1 style={{marginBottom: "8px"}}>História</h1>
-                            <p>Estamos aqui para ajudar e colaborar! Preencha o formulário com suas informações e detalhes sobre sua atividade ou projeto, e entraremos em contato em breve para discutir como podemos contribuir juntos.</p>
+            <div className={styles.content2}>
+                <div className={styles.title}>
+                    <h1>Filosofia</h1>
+                </div>
+                <div className={styles.Boxes}>
+                    <div className={styles.box}>
+                        <h1>Missão</h1>
+                        <p>"Formar, especializar e aperfeiçoar pessoal em nível superior no campo científico-tecnológico e cooperar, pelo ensino e pela pesquisa, para o progresso do Exército Brasileiro e do país."</p>
+                    </div>
+                    <div className={styles.box}>
+                        <h1>Visão</h1>
+                        <p>"Ser reconhecido, nacional e internacionalmente, como um Centro de Excelência no Ensino e na Pesquisa em Ciência e Tecnologia."</p>
+                    </div>
+                    <div className={styles.box2}>
+                        <h1>Valores</h1>
+                        <div className={styles.list}>
+                            <ul>
+                                <li>Hierarquia e Disciplina</li>
+                                <li>Humanização</li>
+                                <li>Qualidade de Ensino e Pesquisa</li>
+                                <li>Ética</li>
+                                <li>Competência Profissional</li>
+                                <li>Espírito de Liderança</li>
+                                <li>Pioneirismo</li>
+                                <li>Patriotismo</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -56,17 +75,6 @@ export default function parceriaPage(){
                             <Image src={ime} style={{width: '45vw', height:'28vw', border: '4px solid white'}}></Image>
                         </div>
                     </div>
-            </div>
-            <div className={styles.Content2}>
-                <div className={styles.invContent}>
-                    <Image src={ime2} style={{width: '1200px', height:'400px', border: '4px solid #49A9F8'}}></Image>
-                    <div className={styles.invText}>
-                        <div className={styles.invText2}>
-                            <h1 style={{marginBottom: "8px"}}>História</h1>
-                            <p>Estamos aqui para ajudar e colaborar! Preencha o formulário com suas informações e detalhes sobre sua atividade ou projeto, e entraremos em contato em breve para discutir como podemos contribuir juntos.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
             <FooterC/>
         </div>
