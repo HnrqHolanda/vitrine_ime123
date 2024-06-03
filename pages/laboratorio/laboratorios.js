@@ -3,7 +3,7 @@ import styles from "../../styles/pages/laboratorios.module.css"
 import CardC from "../../components/card_grupo"
 import image1 from '../../public/imersão1.jpg'
 import lab_array from "../../data/labs/SE_1/labs_array"
-import FooterC from "../../components/footer"
+import FooterC from "../../components/footer2"
 import lab_array4 from '../../data/labs/prog_mat/labs_array'
 import lab_array2 from "../../data/labs/prog_cart/labs_array"
 import lab_array1 from "../../data/labs/prog_ele/labs_array"

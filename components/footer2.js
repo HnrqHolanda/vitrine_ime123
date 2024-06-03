@@ -1,9 +1,9 @@
-import styles from "../styles/components/footer.module.css"
+import styles from "../styles/components/footer2.module.css"
 import Link from 'next/link'
 import MyImage from "../public/Logo.png"
 import Image from 'next/image';
 
-const FooterC = () => {
+const Footer2C = () => {
     return (
 
         <div className={styles.footer}>
@@ -28,4 +28,4 @@ const FooterC = () => {
     )
   };
   
-  export default FooterC;
+  export default Footer2C;

@@ -4,7 +4,7 @@ import styles from '../../styles/pages/prop_intelectual.module.css'
 import graph1 from '../../public/patentes.png'
 import graph2 from '../../public/computer_programs.png'
 import { _patentes, _registros } from './model';
-import FooterC from '../../components/footer';
+import Footer2C from '../../components/footer2';
 import { useState } from 'react';
 
 export default function PropIntelectual() {
@@ -75,7 +75,7 @@ export default function PropIntelectual() {
                     </div>
                 </div>
             </div>
-            <FooterC/>
+            <Footer2C/>
         </div>
     );
 }

@@ -18,7 +18,6 @@ const HeaderC = () => {
                 
                 <Link href="http://localhost:3000/home/home" className={styles.LinkEstilizado}>Home</Link>
                 <Link href="http://localhost:3000/instituto/instituto" className={styles.LinkEstilizado}>O instituto</Link>
-                <Link href="http://localhost:3000/destaques/destaques" className={styles.LinkEstilizado}>Destaques</Link>
                 <Link href="http://localhost:3000/grupesq/grupesq" className={styles.LinkEstilizado}>Grupos de Pesquisa</Link>
                 <Link href="http://localhost:3000/propint/propint" className={styles.LinkEstilizado}>Propriedade Intelectual</Link>
                 <Link href="http://localhost:3000/laboratorio/laboratorios" className={styles.LinkEstilizado}>Laboratórios</Link>

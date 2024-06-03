@@ -82,7 +82,6 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    height: 76vh;
     padding-top: 30px;
     margin: 0;
     
@@ -100,6 +99,7 @@
     display: flex;
     justify-content: space-between;
     height: 280px;
+    margin-bottom: 85px;
 }
 
 .box{
@@ -147,6 +147,37 @@
     margin: 3px;
 }
 
+.topics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topics h1{
+    text-align: center;
+    font-size: 90px;
+    color: #0f0049;
+    margin-bottom: 20px;
+}
+
+.topic{
+    width: 75%;
+    margin: 10px;
+}
+
+.topic h2{
+    color: #0f0049;
+    font-size: 35px;
+    margin-bottom: 4px;
+}
+
+.topic p{
+    color: #305bb7;
+    font-family: "Roboto";
+    font-size: 20px;
+    text-indent: 30px;
+    margin-bottom: 7px;
+}
 
 
 

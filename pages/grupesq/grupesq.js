@@ -14,6 +14,7 @@ import grupos_array8 from "../../data/grupesq/gp8/linhas_array"
 import grupos_array9 from "../../data/grupesq/gp9/linhas_array"
 import grupos_array10 from "../../data/grupesq/gp10/linhas_array"
 import grupos_array11 from "../../data/grupesq/gp11/linhas_array"
+import Footer2C from "../../components/footer2"
 
 export default function LabPage(){
     return(
@@ -37,6 +38,7 @@ export default function LabPage(){
                     <CardC dataarray={grupos_array11} title='Engenharia de Defesa'/>
                 </div>
             </div>
+            <Footer2C/>
         </div>
     )
 }
